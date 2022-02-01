@@ -20,8 +20,7 @@ namespace AsteroidsCode.Core
             set
             {
                 score = value;
-
-                OnScoreChange?.Invoke(value);
+                OnScoreChange?.Invoke(score);
             }
         }
 

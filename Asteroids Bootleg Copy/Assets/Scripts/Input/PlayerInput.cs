@@ -89,7 +89,7 @@ namespace AsteroidsCode.Input
             {
                 for(float time = Time.deltaTime; time <= _player.timeForLaserToRecharge; time += Time.deltaTime)
                 {
-                    _player.currentTimeForLaserToRecharge = Mathf.FloorToInt(time);
+                    _player.CurrentTimeForLaserToRecharge = Mathf.FloorToInt(time);
 
                     yield return null;
                 }

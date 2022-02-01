@@ -1,0 +1,17 @@
+{
+    "name": "SpaceObjects",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3cc1d4e28ff725a4488629440ce12e22",
+        "GUID:2da42b1d101f0064cba8b2117515beed"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

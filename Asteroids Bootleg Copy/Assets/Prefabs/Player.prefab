@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1594124040146569128}
   - component: {fileID: 112219485}
   - component: {fileID: 112219486}
+  - component: {fileID: 1852599160245035599}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -253,14 +254,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 838bc472dc90e484cabee2a0052cbed8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentSpeed: 0
   _transform: {fileID: 0}
   maxSpeed: 0.02
+  deathLayerMasks:
+  - serializedVersion: 2
+    m_Bits: 128
+  - serializedVersion: 2
+    m_Bits: 256
   acceleration: 0.008
   maxLaserCharges: 3
   timeForLaserToRecharge: 8
-  currentLaserCharges: 0
   currentAcceleration: 0
   rotationValue: 0
   rotationSpeed: 80
   drag: 0.006
+--- !u!50 &1852599160245035599
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7162350149227578206}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
